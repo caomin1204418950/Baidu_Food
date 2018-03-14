@@ -5,6 +5,8 @@ import Direction from '@/components/direction'
 import Home from '@/components/home'
 import Ordered from '@/components/ordered'
 import Mine from '@/components/mine'
+import Xiaoer from '@/components/xiaoer'
+
 
 
 
@@ -30,6 +32,11 @@ export default new Router({
       path: '/mine',
       name: 'Mine',
       component: Mine
+    },
+    {
+      path: '/xiaoer',
+      name: 'Xiaoer',
+      component: Xiaoer
     }
   ]
 })

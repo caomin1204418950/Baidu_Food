@@ -1,13 +1,16 @@
 <template>
-  <div>我的</div>
+  <mineheader></mineheader>
 </template>
 
 <script>
+import mineheader from '@/components/mineheader'
 export default {
-
+  components:{
+    mineheader
+  }
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
