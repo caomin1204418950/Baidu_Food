@@ -85,7 +85,8 @@ export default {
         align-items: center;
         overflow: hidden;
     }
-    .menuList{
+    .menuList{ 
+      
         width: 100%;
         height: 50px;
         text-align: center;
